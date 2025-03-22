@@ -30,7 +30,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: pages-artifact
-          path: '.' # デプロイするディレクトリのパスをあなたの構成に合わせて修正してください
+          path: './pages' # デプロイするディレクトリのパスをあなたの構成に合わせて修正してください
 
       - name: Deploy to GitHub Pages
         id: deployment
